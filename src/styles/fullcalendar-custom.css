@@ -1,0 +1,97 @@
+/* -----------------------------
+  Toolbar Buttons
+------------------------------ */
+.fc .fc-toolbar button {
+  background-color: #9389f4; /* رنگ پس‌زمینه دکمه‌ها */
+  color: white; /* رنگ متن دکمه‌ها */
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.fc .fc-toolbar button:hover {
+  background-color: #8174f0;
+}
+
+/* -----------------------------
+  Toolbar Buttons - All
+------------------------------ */
+.fc .fc-toolbar button,
+.fc .fc-toolbar button.fc-today,   /* دکمه امروز */
+.fc .fc-toolbar button.fc-prev,    /* دکمه قبلی */
+.fc .fc-toolbar button.fc-next     /* دکمه بعدی */ {
+  background-color: #9389f4; /* رنگ پس‌زمینه */
+  color: white; /* رنگ متن */
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.fc .fc-toolbar button:hover,
+.fc .fc-toolbar button.fc-today:hover,
+.fc .fc-toolbar button.fc-prev:hover,
+.fc .fc-toolbar button.fc-next:hover {
+  background-color: #8174f0;
+}
+/* -----------------------------
+  Toolbar Buttons - All
+------------------------------ */
+.fc .fc-toolbar button,
+.fc .fc-toolbar button.fc-today,   /* دکمه امروز */
+.fc .fc-toolbar button.fc-prev,    /* دکمه قبلی */
+.fc .fc-toolbar button.fc-next     /* دکمه بعدی */ {
+  background-color: #9389f4; /* رنگ پس‌زمینه */
+  color: white; /* رنگ متن */
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.fc .fc-toolbar button:hover,
+.fc .fc-toolbar button.fc-today:hover,
+.fc .fc-toolbar button.fc-prev:hover,
+.fc .fc-toolbar button.fc-next:hover {
+  background-color: #8174f0;
+}
+
+/* -----------------------------
+  Today / Selected Day
+------------------------------ */
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #e8e6f9; /* رنگ امروز */
+  border-radius: 4px;
+}
+
+.fc .fc-daygrid-day.fc-day-selected {
+  background-color: #ffcc80;
+  border-radius: 4px;
+}
+
+/* -----------------------------
+  Events Colors
+------------------------------ */
+.bg-info {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+
+.bg-success {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.bg-warning {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+
+.bg-error {
+  background-color: #f44336 !important;
+  color: white !important;
+}
